@@ -38,7 +38,7 @@
                 
         </header>
         
-    <main class="main-page">
+        <main class="main-page">
         <section class="main-page-body section">
             <div class="main-container container">
                 <h1 class="main-title">Effective Solutions for Your Business</h1>
@@ -339,8 +339,8 @@
                 </ul>
             </div>
         </section>
-    </main>
-    <footer class="footer">
+        </main>
+        <footer class="footer">
         <div class="footer-container container">
             <div class="first-part">
                 <a href="./index.html" class="foot-logo">Web<span class="foot-accent">Studio</span></a>
@@ -386,16 +386,17 @@
             <div class="foot-form-wrap">
                 <p class="foot-email-title">Subscribe</p>
                 <form class="foot-form">
-                    <label for="foot-email"></label>
-                    <input type="email" name="foot-email" id="foot-email" class="foot-input" placeholder="E-mail"/>
+                    <label for="foot-email" class="foot-email-label">
+                        <input type="email" name="foot-email" id="foot-email" class="foot-input" placeholder="E-mail">
+                    </label>
                     <button type="submit" class="foot-btn">Subscribe <svg class="sub-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-icon-send"></use>
                     </svg></button>
+                    
                 </form>
             </div>
         </div>
-    </footer>
-    <div class="backdrop-wrap">
+        </footer>
         <div class="backdrop is-open">
             <div class="modal">
                 <button type="button" class="modal-close"><svg class="icon-close" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg></button>
@@ -404,7 +405,7 @@
                     <div class="modal-field">
                         <label for="user-name" class="modal-label">Name</label>
                         <div class="modal-input-wrap">
-                            <input type="text" name="user-name" class="modal-input" id="user-name"/>
+                            <input type="text" name="user-name" class="modal-input" id="user-name">
                             <svg class="modal-icon" width="18" height="24">
                                 <use href="./images/icons.svg#icon-person"></use>
                             </svg>
@@ -413,7 +414,7 @@
                     <div class="modal-field">
                         <label for="user-phone" class="modal-label">Phone</label>
                         <div class="modal-input-wrap">
-                            <input type="tel" name="user-phone" class="modal-input" id="user-phone"/>
+                            <input type="tel" name="user-phone" class="modal-input" id="user-phone">
                             <svg class="modal-icon" width="18" height="24">
                                 <use href="./images/icons.svg#icon-phone"></use>
                             </svg>
@@ -422,7 +423,7 @@
                     <div class="modal-field">
                         <label for="user-email" class="modal-label">Email</label>
                         <div class="modal-input-wrap">
-                            <input type="email" name="user-email" class="modal-input" id="user-email"/>
+                            <input type="email" name="user-email" class="modal-input" id="user-email">
                             <svg class="modal-icon" width="18" height="24">
                                 <use href="./images/icons.svg#icon-email"></use>
                             </svg>
@@ -433,7 +434,7 @@
                         <textarea name="user-text" id="user-text" class="modal-text" placeholder="Text input"></textarea>
                     </div>
                     <div class="modal-field">
-                        <input type="checkbox" name="check-privacy" id="check-privacy" class="form-check visually-hidden" value="true"/>
+                        <input type="checkbox" name="check-privacy" id="check-privacy" class="form-check visually-hidden" value="true">
                         <label for="check-privacy" class="check-text"><span>
                             <svg class="check-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-check"></use>
@@ -445,7 +446,6 @@
             </div>
         </div>
     </div>
-    
 </body>
 
 </html> 
